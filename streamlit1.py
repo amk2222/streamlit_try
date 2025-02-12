@@ -4,21 +4,15 @@ import streamlit as st
 st.set_page_config(page_title="Happy Valentine's Day", page_icon="💖", layout="centered")
 
 # Valentine's Day message
-st.title("💝 Happy Valentine's Day! 💝")
+st.title("💝 Happy Valentine's Day Bala! 💝")
 st.write("Wishing you a day filled with love and happiness! 💕")
 
 
-st.markdown(
-    '<img src="https://www.pinterest.com/pin/46021227434129263/" width="500">',
-    unsafe_allow_html=True
-)
-
-image_url = "https://www.pinterest.com/pin/46021227434129263/"
-st.image(image_url, caption="A Special Memory", use_container_width=True)
 
 # Add interactive buttons
 if st.button("💌 Click for a Special Message"):
-    st.write("You are loved and appreciated! 💖 Keep smiling!")
+    st.write("You r my Most Favourite Dessert In my life...Which gives me Sweet Memories EveryDay..🥰
+    I want this Desserts for lifetime..🧁💖 I Love U more than myself...💕")
 
 if st.button("🎵 Play a Romantic Song"):
     st.write("Here's a beautiful song for you! 🎶 [Click Here](https://youtube.com/shorts/12XfezlwL4I?si=VNNUd6oHF3AU9Paf)")
